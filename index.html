@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
+    <!-- <link rel="icon" type="image/svg+xml" href="/vite.svg" /> -->
+    <link rel="icon" type="image/png" href="/portfolio_logo.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Eliaz Simon's Portfolio</title>
+  <script type="module" crossorigin src="/assets/index-DEeclHQ0.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/index-CIAmiqVu.css">
+</head>
+<body>
+  <canvas id="bg"></canvas>
+
+  <audio id="tickHover" src="/audio/tick.wav" preload="auto"></audio>
+
+  <div class="topnav" id="myTopnav">
+      <button type="button" class="nav-btn active" id="homeBtn">Home</button>
+      <button type="button" class="nav-btn" id="portfolioBtn">Portfolio</button>
+      <button type="button" class="nav-btn" id="aboutBtn">About</button>
+      <button type="button" class="nav-btn" id="contactBtn">Contact</button>
+
+      <button id="theme-switch">
+          <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e3e3e3"><path d="M480-120q-150 0-255-105T120-480q0-150 105-255t255-105q14 0 27.5 1t26.5 3q-41 29-65.5 75.5T444-660q0 90 63 153t153 63q55 0 101-24.5t75-65.5q2 13 3 26.5t1 27.5q0 150-105 255T480-120Zm0-80q88 0 158-48.5T740-375q-20 5-40 8t-40 3q-123 0-209.5-86.5T364-660q0-20 3-40t8-40q-78 32-126.5 102T200-480q0 116 82 198t198 82Zm-10-270Z"/></svg>
+          <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e3e3e3"><path d="M480-360q50 0 85-35t35-85q0-50-35-85t-85-35q-50 0-85 35t-35 85q0 50 35 85t85 35Zm0 80q-83 0-141.5-58.5T280-480q0-83 58.5-141.5T480-680q83 0 141.5 58.5T680-480q0 83-58.5 141.5T480-280ZM200-440H40v-80h160v80Zm720 0H760v-80h160v80ZM440-760v-160h80v160h-80Zm0 720v-160h80v160h-80ZM256-650l-101-97 57-59 96 100-52 56Zm492 496-97-101 53-55 101 97-57 59Zm-98-550 97-101 59 57-100 96-56-52ZM154-212l101-97 55 53-97 101-59-57Zm326-268Z"/></svg>
+      </button>
+  </div>
+
+  <div class="loader">
+    <h2 class="loader-text">ELIAZ SIMON</h2>
+  </div>
+
+  <div id="section" class="portfolio">
+      <h2>Portfolio</h2>
+      <div class="filter">
+        <input id="searchfield" type="text" placeholder="Name"> 
+
+        <div class="dropdown" id="os"> 
+            <select id="os">
+                <option value="select">Operating System</option>
+                <option value="Linux">Linux</option>
+                <option value="Windows">Windows</option>
+            </select>
+            <div class="icon-container">
+                <i class="fa-solid fa-caret-down"></i>
+            </div>
+        </div>
+
+        <div class="dropdown" id="languages"> 
+            <select id="languages">
+                <option value="select">Programming Languages</option>
+                <option value="Bash Script">Bash Script</option>
+                <option value="Shell Script">Shell Script</option>
+            </select>
+            <div class="icon-container">
+                <i class="fa-solid fa-caret-down"></i>
+            </div>
+        </div>
+
+        <div class="dropdown" id="platform"> 
+            <select id="platform">
+                <option value="select">Platform</option>
+                <option value="Desktop">Desktop</option>
+                <option value="Web">Web</option>
+            </select>
+            <div class="icon-container">
+                <i class="fa-solid fa-caret-down"></i>
+            </div>
+        </div>
+
+        <div class="dropdown" id="field"> 
+            <select id="field">
+                <option value="select">Field</option>
+                <option value="Software">Software</option>
+                <option value="Audio">Audio</option>
+                <option value="Cybersecurity">Cybersecurity</option>
+                <option value="Networking">Networking</option>
+                <option value="Cryptography">Cryptography</option>
+                <option value="Programming Languages">Programming Languages</option>
+                <option value="Mathematics">Mathematics</option>
+                <option value="Physics">Physics</option>
+                <option value="Operating System">Operating System</option>
+                <option value="Artificial Intelligence">Artificial Intelligence</option>
+                <option value="Deep Learning">Deep Learning</option>
+                <option value="Machine Learning">Machine Learning</option>
+                <option value="Game Development">Game Development</option>
+            </select>
+            <div class="icon-container">
+                <i class="fa-solid fa-caret-down"></i>
+            </div>
+        </div>
+
+        <div class="dropdown" id="layout"> 
+            <select id="layout" class="layout-option">
+                <option value="select">Layout</option>
+                <option value="grid">Grid</option>
+                <option value="horizontal">Horizontal</option>
+            </select>
+            <div class="icon-container">
+                <i class="fa-solid fa-caret-down"></i>
+            </div>
+        </div>
+
+        <div class="dropdown" id="sort-by"> 
+            <select id="sort-by">
+                <option value="select">Sort By</option>
+                <option value="latest">Latest</option>
+                <option value="oldest">Oldest</option>
+                <option value="asc">A to Z</option>
+                <option value="desc">Z to A</option>
+            </select>
+            <div class="icon-container">
+                <i class="fa-solid fa-caret-down"></i>
+            </div>
+        </div>
+      </div>
+
+      <div class="box-selection">
+            <div id="first-project" class="box">
+                <img src="textures/logo/logo1.png"/>
+                <p class="title">NetAuto</p>
+                <p class="description">Network reconnaissance tool that automates enumeration of services, protocols and ports, suitable network scanning and penetration testing practices.</p>
+                <p class="date">2024-06-07</p>
+                <p class="os">Linux</p>
+                <p class="language">Bash Script</p>
+                <p class="platform">Desktop</p>
+                <p class="field">Cybersecurity; Networking; Scripting;</p>
+                <button id="download" type="button">Download</button>
+            </div>
+      
+            <div id="second-project" class="box">
+                <img src="textures/logo/logo2.png"/>
+                <p class="title">DirAuto</p>
+                <p class="description">Directory reconnaissance tool for automating enumeration of subdomains for penetration testing and network scanning.</p>
+                <p class="date">2024-06-01</p>
+                <p class="os">Linux</p>
+                <p class="language">Bash Script</p>
+                <p class="platform">Desktop</p>
+                <p class="field">Cybersecurity; Networking; Scripting;</p>
+                <button id="download" type="button">Download</button>
+            </div>
+         
+            <div id="third-project" class="box">
+                <img src="textures/logo/logo3.png"/>
+                <p class="title">ShellSketch</p>
+                <p class="description">Bash script template for automatically generating structred-formatted shell scripts.</p>
+                <p class="date">2024-06-23</p>
+                <p class="os">Linux</p>
+                <p class="language">Shell Script</p>
+                <p class="platform">Desktop</p>
+                <p class="field">Scripting;</p>
+                <button id="download" type="button">Download</button>
+            </div>
+          
+            <div id="fourth-project" class="box">
+                <img src="textures/logo/logo4.png"/>
+                <p class="title">LFSInstaller</p>
+                <p class="description">Linux From Scratch script installer generator that creates installation scripts by preference.</p>
+                <p class="date">2024-10-28</p>
+                <p class="os">Linux</p>
+                <p class="language">Bash Script</p>
+                <p class="platform">Desktop</p>
+                <p class="field">Scripting; Operating System;</p>
+                <button id="download" type="button">Download</button>
+            </div>
+      </div>
+  </div>
+
+  <div class="projectview">
+    <img id="banner" src="" />
+
+    <div class="close"></div>
+
+    <div id="description"></div>
+        <a id="link" href="#">
+            <button id="download" type="button">Download</button>
+        </a>
+    <span>
+    </span>
+  </div>
+
+  <div id="section" class="about">
+    <div class="about-container">
+      <h2>About Me</h2>
+      <p>
+          Eliaz Simon
+          <br><br>
+          Software Engineer with Pure Mathematics background, Masters in Advanced Computer Science with theoretical background of Artificial Intelligence, Deep Learning,
+          Cryptography, Cybersecurity and Game Development. Interest in Forex Trading, playing Acoustic/Electric Guitar and reading published research papers.
+      </p>
+    </div>
+  </div>
+
+  <div id="section" class="contact">
+    <div class="contact-container">
+        <h2>Contact</h2>
+        <div id="contact-info">
+            <a href="https://www.linkedin.com/in/eliaz-simon/">
+                <p><i class="fa-brands fa-linkedin"></i></p>
+            </a>
+            <a href="mailto:eliaz5536@gmail.com">
+                <p><i class="fa-solid fa-envelope"></i></p>
+            </a>
+        </div>
+    </div>
+  </div>
+
+</body>
+</html>
