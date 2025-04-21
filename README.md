@@ -8,10 +8,10 @@ The portfolio can be accessed and viewed separately by each section such as
 - **Contact**
 
 You can access the portfolio through this following link: https://eliaz5536.github.io/portfolio/
-  
-![ezgif-414f5974cad148](https://github.com/user-attachments/assets/fb011bb9-0f5c-49bf-ae37-2f5c684de34a)
 
-![ezgif-405ac189864eaa](https://github.com/user-attachments/assets/b8d6f62c-36ff-4954-bed7-0a5fa92a065f)
+![ezgif-1411d9aafa940f](https://github.com/user-attachments/assets/a5ecde5c-38e0-46ab-83e9-c893680aeb75)
+
+![ezgif-405ac189864eaa](https://github.com/user-attachments/assets/87eda2d9-f458-4f5c-be9f-08601c661e34)
 
 # Inspiration
 The UI Design stem from the combination of PlayStation 4's minimal skeuomorphic design and PlayStation 2's 3D interactive animations.
@@ -37,22 +37,23 @@ Package Manager for installing, running and building dependencies of the suitabl
 ## **Toggle Dark Mode**
 Dark mode can be toggled by clicking on the top right corner to change its appearance and lighting of the page.
 
-![ezgif-25a929dee79f7e](https://github.com/user-attachments/assets/caaf20e0-5e47-4bd9-b729-c0dc7b96684a)
+![ezgif-25a929dee79f7e](https://github.com/user-attachments/assets/a7afab59-c6d2-49a4-837b-be860a4777fa)
   
 ## **Change Layout Style**
 You can change the layout style of result queries real-time through **Portfolio** section.
 
-![ezgif-200b62b125d9d3](https://github.com/user-attachments/assets/b5cf2a0b-6aeb-4b44-925d-0ec732f4ff94)
+![ezgif-200b62b125d9d3](https://github.com/user-attachments/assets/3e84cae4-eae2-43af-a8a7-d7f7d71b790e)
 
 ## **Search Filter**
 You can change filter search queries to specify your search.
 
-![ezgif-1b01fac052b802](https://github.com/user-attachments/assets/9e71660d-3659-4abd-86fa-91c8407b8e19)
+![ezgif-1b01fac052b802](https://github.com/user-attachments/assets/254bf69f-2aa6-46d6-a8a1-8107b04a6d23)
+
 
 ## **Accessible Github Projects**
 GitHub projects can be accessed after clicking on the selected query you want to view.
 
-![ezgif-1981b8ea19ba90](https://github.com/user-attachments/assets/73956d9b-a71e-4c4b-b038-a32fec58ceca)
+![ezgif-1981b8ea19ba90](https://github.com/user-attachments/assets/ed84f419-2b8e-4cdb-8993-50030e589d82)
 
 # License
 The project is licensed under the MIT License.
